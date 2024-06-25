@@ -8,3 +8,5 @@ theme: minima # デフォルトのテーマを使用
 # CSSファイルの指定
 sass:
   style: compressed
+
+category_dir: categories
