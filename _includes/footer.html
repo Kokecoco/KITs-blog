@@ -1,0 +1,20 @@
+<footer id="footer" class="footer">
+  <p>&copy; {{ site.time | date: "%Y" }} KITs</p>
+</footer>
+
+<script>
+  function adjustFooter() {
+    var footer = document.getElementById('footer');
+    var bodyHeight = document.body.offsetHeight;
+    var windowHeight = window.innerHeight;
+    
+    if (bodyHeight < windowHeight) {
+      footer.classList.add('fixed-footer');
+    } else {
+      footer.classList.remove('fixed-footer');
+    }
+  }
+
+  window.addEventListener('load', adjustFooter);
+  window.addEventListener('resize', adjustFooter);
+</script>

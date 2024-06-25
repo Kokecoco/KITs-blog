@@ -1,0 +1,90 @@
+---
+# Jekyllのフロントマター
+---
+
+// メインカラーとフォントの設定
+$main-color: #3c3c6c;
+$font-family: 'Noto Sans JP', sans-serif;
+
+// ページ全体の背景色
+body {
+  background-color: #efefef;
+  font-family: $font-family;
+  margin: 0;
+}
+
+// ナビゲーションバーのスタイル
+nav {
+  background-color: $main-color;
+  padding: 10px 60px;
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      display: inline-block;
+      margin-right: 20px;
+      
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        
+        &:hover {
+          color: #ffcc00; // ホバー時の色を指定（例：黄色）
+        }
+      }
+    }
+  }
+  a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+}
+
+// フッターのスタイル
+.footer {
+  background-color: $main-color;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+// メイン部分のスタイル（Bootstrapのcontainer風）
+.main-content {
+  max-width: 1140px; // Bootstrapのcontainerと同じ幅にする例
+  margin: 0 auto; // 中央寄せ
+  padding: 20px; // コンテンツ内の余白
+}
+
+// その他のスタイル
+// 例えばボタンやフォームなどの追加スタイルがあればここに記述する
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+

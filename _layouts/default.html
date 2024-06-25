@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </nav>
+    </header>
+    <main class="main-content">{{ content }}</main>
+    {% include footer.html %}
+  </body>
+</html>

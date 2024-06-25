@@ -1,0 +1,19 @@
+---
+layout: default
+title: ホーム
+---
+<h1>投稿一覧</h1>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <div class="card">
+        <p>{{ post.title }}</p>
+        <p>投稿日：{{ post.date | date: "%Y-%m-%d" }}</p>
+        <p>投稿者：{{ post.author }}</p>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

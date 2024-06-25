@@ -1,0 +1,10 @@
+title: KITs開発者ブログ
+description: >-
+  これはJekyllで作成されたブログです。
+baseurl: "" # プロジェクトページの場合はリポジトリ名
+url: "https://kokecoco.github.io" # GitHubページのURL
+theme: minima # デフォルトのテーマを使用
+
+# CSSファイルの指定
+sass:
+  style: compressed
