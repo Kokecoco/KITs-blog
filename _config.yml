@@ -10,3 +10,9 @@ sass:
   style: compressed
 
 category_dir: categories
+
+collections:
+  categories:
+    output: true
+    permalink: /categories/:name/
+
