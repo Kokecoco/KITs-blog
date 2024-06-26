@@ -16,3 +16,6 @@ collections:
     output: true
     permalink: /categories/:name/
 
+plugins:
+  - jekyll-sitemap
+

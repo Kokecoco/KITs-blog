@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ page.description | default: site.description }}" />
+    <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
+    <meta property="og:title" content="{{ page.title | escape }} | {{ site.title | escape }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.image | default: site.image | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ page.image | default: site.image | absolute_url }}">
+
     <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
     <link
       rel="stylesheet"
