@@ -8,7 +8,9 @@ layout: default
     <p class="post-meta">公開日: {{ page.date | date: "%Y年 %m月 %d日" }}</p>
     <p class="post-meta">投稿者: {{ page.author }}</p>
   </header>
+  <hr>
   <div class="post-content">{{ content }}</div>
+  <hr>
   <footer class="post-footer">
     <p>
       カテゴリー: {% for category in page.categories %}{{ category }}
