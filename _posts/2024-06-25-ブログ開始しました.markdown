@@ -2,7 +2,7 @@
 layout: post
 title:  "ブログ開始しました"
 date:   2024-06-25 18:24:00 +0900
-categories: blog update
-author : "和田 楓"
+categories: ブログ
+author : "苔コッコー"
 ---
 KITs開発者ブログを開始しました。ここに使い方や更新履歴なども投稿する予定です。
