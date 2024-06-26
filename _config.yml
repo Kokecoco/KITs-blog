@@ -2,7 +2,7 @@ title: KITs開発者ブログ
 description: >-
   これはJekyllで作成されたブログです。
 baseurl: "" # プロジェクトページの場合はリポジトリ名
-url: "https://blog.kits-tools.net/" # GitHubページのURL
+url: "https://blog.kits-tools.net" # GitHubページのURL
 theme: minima # デフォルトのテーマを使用
 
 # CSSファイルの指定
