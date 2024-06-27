@@ -51,24 +51,31 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-sm">
-        <a href="https://www.kits-tools.net/" class="navbar-brand"
-          ><img src="{{ site.url }}{{ site.baseurl }}assets/images/logo.svg" width="32px" alt="KITs"
-        /></a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a href="{{ site.url }}{{ site.baseurl }}" class="nav-link"
-              >{{ site.title }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="{{ site.url }}{{ site.baseurl }}archive/" class="nav-link"
-              >アーカイブ</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="https://www.kits-tools.net" class="nav-link">KITsへ</a>
-          </li>
-        </ul>
+        <div class="container-fluid">
+          <a href="https://www.kits-tools.net/" class="navbar-brand"
+            ><img
+              src="{{ site.url }}{{ site.baseurl }}/assets/images/logo.svg"
+              width="32px"
+              alt="KITs"
+          /></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a href="{{ site.url }}{{ site.baseurl }}" class="nav-link"
+                >{{ site.title }}</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="{{ site.url }}{{ site.baseurl }}archive/"
+                class="nav-link"
+                >アーカイブ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="https://www.kits-tools.net" class="nav-link">KITsへ</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="main-content">{{ content }}</main>
