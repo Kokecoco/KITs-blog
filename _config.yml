@@ -11,11 +11,14 @@ sass:
 
 category_dir: categories
 
-collections:
-  categories:
-    output: true
-    permalink: /categories/:name/
-
 plugins:
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "categories/"
+    values:
+      layout: category
+
 

@@ -12,8 +12,11 @@ layout: default
   <hr>
   <footer class="post-footer">
     <p>
-      カテゴリー: {% for category in page.categories %}{{ category }}
-      {% if forloop.last == false %}, {% endif %} {% endfor %}
+      カテゴリー: 
+      {% for category in page.categories %}
+      <a href="{{ '/categories/' | append: category | relative_url }}">{{ category }}</a>
+      {% if forloop.last == false %}, {% endif %}
+      {% endfor %}
     </p>
   </footer>
 </article>
