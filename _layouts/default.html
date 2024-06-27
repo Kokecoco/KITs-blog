@@ -3,19 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{ page.description | default: site.description }}" />
-    <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
-    <meta property="og:title" content="{{ page.title | escape }} | {{ site.title | escape }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ page.image | default: site.image | absolute_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-    <meta name="twitter:image" content="{{ page.image | default: site.image | absolute_url }}">
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta
+      name="keywords"
+      content="{{ page.keywords | default: site.keywords }}"
+    />
+    <meta
+      property="og:title"
+      content="{{ page.title | escape }} | {{ site.title | escape }}"
+    />
+    <meta
+      property="og:description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta
+      property="og:image"
+      content="{{ page.image | default: site.image | absolute_url }}"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
+    <meta
+      name="twitter:description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta
+      name="twitter:image"
+      content="{{ page.image | default: site.image | absolute_url }}"
+    />
 
     <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="{{ '/assets/css/style.css' | relative_url }}"
@@ -23,11 +48,25 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <a href="https://www.kits-tools.net/"><img src="../assets/images/logo.svg" width="32px" alt="KITs"></a>
-        <a href="{{ site.url }}{{ site.baseurl }}" class="nav-link">{{ site.title }}</a>
-        <a href="{{ site.url }}{{ site.baseurl }}archive/" class="nav-link">アーカイブ</a>
-        <a href="https://www.kits-tools.net" class="nav-link">KITsへ</a>
+      <nav class="navbar navbar-expand-sm">
+        <a href="https://www.kits-tools.net/" class="navbar-brand"
+          ><img src="../assets/images/logo.svg" width="32px" alt="KITs"
+        /></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a href="{{ site.url }}{{ site.baseurl }}" class="nav-link"
+              >{{ site.title }}</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="{{ site.url }}{{ site.baseurl }}archive/" class="nav-link"
+              >アーカイブ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="https://www.kits-tools.net" class="nav-link">KITsへ</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="main-content">{{ content }}</main>
