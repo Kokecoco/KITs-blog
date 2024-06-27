@@ -20,9 +20,13 @@ nav {
   display: flex;
   align-items: center;
   a {
-    color: #ffffff;
+    color: #ffffff !important;
     text-decoration: none;
   }
+}
+
+.navbar-brand {
+  margin: 0 10px;
 }
 
 
