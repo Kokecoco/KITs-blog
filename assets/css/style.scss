@@ -4,19 +4,22 @@
 
 // メインカラーとフォントの設定
 $main-color: #3c3c6c;
-$font-family: "Noto Sans JP", sans-serif;
+$font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 
 // ページ全体の背景色
 body {
   background-color: #efefef;
   font-family: $font-family;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
   margin: 0;
 }
 
 // ナビゲーションバーのスタイル
 nav {
   background-color: $main-color;
-  padding: 5px 10px;
+  padding: 10px;
   display: flex;
   align-items: center;
   a {
@@ -31,11 +34,12 @@ nav {
 
 
 // フッターのスタイル
-.footer {
+footer {
   background-color: $main-color;
   color: #ffffff;
-  padding: 10px 0;
   text-align: center;
+  padding: 10px;
+  margin: 1rem 0 0 0;
 }
 
 // その他のスタイル
@@ -70,11 +74,14 @@ ul {
 
 article {
   background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 1);
+  border-radius: 0.5rem;
 }
 
 h1 {
