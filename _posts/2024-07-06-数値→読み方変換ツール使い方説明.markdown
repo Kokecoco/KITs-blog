@@ -1,0 +1,17 @@
+---
+layout: post
+title: "数値→読み方変換ツール使い方"
+date: 2024-07-06 02:35:02 +0900
+categories: 使い方説明
+author: "N.T."
+---
+
+数値→読み方変換ツールの使い方の説明です。  
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfF6JeH-YXowrc9Ob5YFoHxK3K7EshjGgwjwOVmdXvUeRB1x4g5gcGqtquRAKgi4sElX34wB10stha32qEIDmif0ybVNK-GHTfYEYo7pneOZG7zYVQdClJs3K1S6gv1t5_ZauPdln4ULAmZw0DT_XH1bp97?key=rrd2Tq2bsw89veuYdcliWg)  
+# 基本的な使用方法  
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdVUAju5_A368eVV0ZpalhH6puXow8G4xGKnsi6WneMW4fuFBk5G2aOlUTAkvLLi8HT5OkNH63rNjuMCZdO-gUCpVWj6TnVQ0pyupigxRqkXwAYHdKWGLU5P047SO4Af5v6OIJSIvtth3ZK_C5n5muOdR0?key=rrd2Tq2bsw89veuYdcliWg)  
+1. テキスト入力欄に数を入力してください。半角の正の整数のみ使用できます。マイナス（-）や、小数点（.）などは使えません。  
+2. 「変換」ボタンを押してください。  
+3. 「変換」ボタンを押すと、テキスト入力欄の下に数の単位での読み方が表示されます。  
+（例）  
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfgSNkFngpyD0kodd1-jU9xTMoqRFQN3a3LW5o3ti995W1Mvx9A-SbXOHtgyiRjG7VhM-C_poYBT6K0VZsJ2BPGdCmyLTHxLkbRGNe3GtxYHi6pxNa5y3KoutxW5ySLGCdOtgP524UIRtSs1-Qhr5cFGuU?key=rrd2Tq2bsw89veuYdcliWg)
