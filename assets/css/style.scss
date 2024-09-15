@@ -4,7 +4,8 @@
 
 // メインカラーとフォントの設定
 $main-color: #3c3c6c;
-$font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+$font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans",
+  "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 
 // ページ全体の背景色
 body {
@@ -32,9 +33,8 @@ nav {
   margin: 0 10px;
 }
 
-
 // フッターのスタイル
-.footer {
+#footer {
   background-color: $main-color;
   color: #ffffff;
   text-align: center;
