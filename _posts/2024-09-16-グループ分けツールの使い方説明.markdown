@@ -1,0 +1,23 @@
+---
+layout: post
+title: "グループ分けツールの使い方説明"
+date: 2024-09-15 22:01:01 +0900
+categories: 使い方説明
+author: "苔コッコー"
+---
+
+## グループ分け
+1. 名前を入力しない場合は｢全体の人数を入力｣の欄に全体の人数を入力してください(名前を入力する際は不要です)
+2. 「名前を入力｣の欄にグループに分けたい人の名前を入力してください
+3. 名前と名前の間をコンマで区切ってください
+4. 番号で入力したい場合は｢自動入力｣のボタンを押してください
+5. ｢グループ数を入力｣の欄にグループ数を入力してください
+6. ｢分ける｣ボタンを押すと下側に結果が出ます
+7. 押すたびに結果が変わります
+
+※リセットしたい場合は再更新orすべての欄の文字を削除し、分けるボタンを押してください
+画像①
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcT9sCjNniWy2cQl8u7kIeZW6hEQcm_pxg41cj9M7o9puK1pA0EeksCSyPtIsvLzY4vxAwxDrg4ywqyEIXrzuKwq9S6goFSlUpVKPco_S7gfV1G77ZQW5Rh6r91OGicFBrFxhmp1q-WDuUm033vFG__G7_6?key=-rroUbtsV_Np92fjEZvgUg)
+
+画像②
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5fosJ2oFgugYkBD42TCtMO1CSqZms0W71BGA2i7AhPkA6mbSp5xKE-A8BZZzKu-1Bov992odDKC457A18hapUJy4sT_D3qoAwmG9IkPj6-Nb-Rw-TzhKfh4dIKKyEvCVgpaAfFjBGGcXEqWHbYovgjISw?key=-rroUbtsV_Np92fjEZvgUg)
